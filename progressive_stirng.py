@@ -1,12 +1,9 @@
-import sys
-
 def progressive(string, i_from, i_to) :
 
 	prefix, sufix = string.split("*")
 
 	for i in range(i_from, i_to+1) :
 		print(f"{prefix}{i}{sufix}")
-
 
 
 string = input("What is the stirng? [One '*' is required]\n")
